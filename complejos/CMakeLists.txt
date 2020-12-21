@@ -68,7 +68,7 @@ if(BUILD_DOCUMENTATION)
          message(FATAL_ERROR "Doxygen is needed to build the documentation.")
     endif()
 
-    set(doxyfile_in ${CMAKE_CURRENT_SOURCE_DIR}/fibonacci.Doxyfile)
+    set(doxyfile_in ${CMAKE_CURRENT_SOURCE_DIR}/complejos.Doxyfile)
     set(doxyfile ${CMAKE_CURRENT_BINARY_DIR}/doxyfile)
 
     configure_file(${doxyfile_in} ${doxyfile} @ONLY)
