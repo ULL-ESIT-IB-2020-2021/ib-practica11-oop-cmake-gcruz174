@@ -5,7 +5,7 @@
  * Informática Básica
  *
  * @author Ginés Cruz Chávez
- * @date 21.nov.2020
+ * @date 21.dec.2020
  * @brief This file declares the Complejo class
  *
  */
